@@ -1,0 +1,310 @@
+[0.041s] Invoking command in '/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface -DCMAKE_INSTALL_PREFIX=/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface
+[0.166s] -- The C compiler identification is GNU 13.3.0
+[0.286s] -- The CXX compiler identification is GNU 13.3.0
+[0.329s] -- Detecting C compiler ABI info
+[0.537s] -- Detecting C compiler ABI info - done
+[0.553s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.554s] -- Detecting C compile features
+[0.554s] -- Detecting C compile features - done
+[0.569s] -- Detecting CXX compiler ABI info
+[0.790s] -- Detecting CXX compiler ABI info - done
+[0.813s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.813s] -- Detecting CXX compile features
+[0.814s] -- Detecting CXX compile features - done
+[0.821s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.088s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.278s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.285s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.426s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.592s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.513s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.524s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.788s] -- Found PythonExtra: /usr/bin/python3  
+[5.675s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.746s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.780s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.781s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface/rosidl_generator_c>;$<BUILD_INTERFACE:/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface/rosidl_typesupport_introspection_cpp>;/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface/rosidl_generator_c;/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface/rosidl_generator_py
+[5.781s] -- Configured cppcheck exclude dirs and/or files: 
+[5.784s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.784s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.787s] -- Added test 'lint_cmake' to check CMake code style
+[5.789s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.800s] -- Added test 'uncrustify' to check C / C++ code style
+[5.800s] -- Configured uncrustify additional arguments: 
+[5.802s] -- Added test 'xmllint' to check XML markup files
+[5.806s] -- Configuring done (5.7s)
+[5.876s] -- Generating done (0.1s)
+[5.894s] -- Build files have been written to: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface
+[5.917s] Invoked command in '/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface -DCMAKE_INSTALL_PREFIX=/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface
+[5.926s] Invoking command in '/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface -- -j4 -l4
+[6.050s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.074s] [  1%] Built target ament_cmake_python_copy_k9_interface
+[6.491s] [  1%] Built target k9_interface__rosidl_generator_type_description
+[6.511s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.535s] running egg_info
+[6.543s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.587s] creating k9_interface.egg-info
+[6.587s] writing k9_interface.egg-info/PKG-INFO
+[6.587s] writing dependency_links to k9_interface.egg-info/dependency_links.txt
+[6.587s] writing top-level names to k9_interface.egg-info/top_level.txt
+[6.587s] writing manifest file 'k9_interface.egg-info/SOURCES.txt'
+[6.716s] reading manifest file 'k9_interface.egg-info/SOURCES.txt'
+[6.717s] writing manifest file 'k9_interface.egg-info/SOURCES.txt'
+[6.848s] [  5%] Built target ament_cmake_python_build_k9_interface_egg
+[7.445s] [  5%] Built target k9_interface__cpp
+[7.581s] [ 12%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_generator_c.dir/rosidl_generator_c/k9_interface/srv/detail/ltm_set_model__description.c.o[0m
+[7.581s] [ 12%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_generator_c.dir/rosidl_generator_c/k9_interface/srv/detail/ltm_remember__description.c.o[0m
+[7.581s] [ 12%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_generator_c.dir/rosidl_generator_c/k9_interface/srv/detail/ltm_set_model__functions.c.o[0m
+[7.581s] [ 12%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_generator_c.dir/rosidl_generator_c/k9_interface/srv/detail/ltm_set_model__type_support.c.o[0m
+[7.690s] [ 14%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_generator_c.dir/rosidl_generator_c/k9_interface/srv/detail/ltm_remember__functions.c.o[0m
+[7.706s] [ 16%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_generator_c.dir/rosidl_generator_c/k9_interface/srv/detail/ltm_remember__type_support.c.o[0m
+[7.738s] [ 18%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_generator_c.dir/rosidl_generator_c/k9_interface/srv/detail/ltm_query__description.c.o[0m
+[7.798s] [ 20%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_generator_c.dir/rosidl_generator_c/k9_interface/srv/detail/ltm_query__functions.c.o[0m
+[7.816s] [ 22%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_generator_c.dir/rosidl_generator_c/k9_interface/srv/detail/ltm_query__type_support.c.o[0m
+[7.972s] [ 24%] [32m[1mLinking C shared library libk9_interface__rosidl_generator_c.so[0m
+[8.077s] [ 24%] Built target k9_interface__rosidl_generator_c
+[8.102s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.103s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.103s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.103s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.798s] [ 33%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/k9_interface/srv/ltm_set_model__type_support.cpp.o[0m
+[8.992s] [ 35%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/k9_interface/srv/detail/ltm_set_model__type_support.cpp.o[0m
+[9.211s] [ 37%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/k9_interface/srv/detail/dds_fastrtps/ltm_set_model__type_support.cpp.o[0m
+[9.482s] [ 38%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/k9_interface/srv/detail/ltm_set_model__type_support_c.cpp.o[0m
+[9.970s] [ 40%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/k9_interface/srv/ltm_remember__type_support.cpp.o[0m
+[10.201s] [ 42%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/k9_interface/srv/detail/ltm_remember__type_support.cpp.o[0m
+[10.901s] [ 44%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/k9_interface/srv/detail/ltm_remember__type_support_c.cpp.o[0m
+[10.952s] [ 46%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/k9_interface/srv/detail/dds_fastrtps/ltm_remember__type_support.cpp.o[0m
+[11.226s] [ 48%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/k9_interface/srv/ltm_query__type_support.cpp.o[0m
+[11.637s] [ 50%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/k9_interface/srv/detail/ltm_query__type_support.cpp.o[0m
+[12.258s] [ 51%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/k9_interface/srv/detail/ltm_query__type_support_c.cpp.o[0m
+[12.354s] [ 53%] [32m[1mLinking CXX shared library libk9_interface__rosidl_typesupport_cpp.so[0m
+[12.615s] [ 53%] Built target k9_interface__rosidl_typesupport_cpp
+[12.663s] [ 55%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/k9_interface/srv/detail/dds_fastrtps/ltm_query__type_support.cpp.o[0m
+[12.885s] [ 57%] [32m[1mLinking CXX shared library libk9_interface__rosidl_typesupport_introspection_cpp.so[0m
+[12.893s] [ 59%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.283s] [ 59%] Built target k9_interface__rosidl_typesupport_introspection_cpp
+[13.328s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.881s] [ 62%] [32m[1mLinking CXX shared library libk9_interface__rosidl_typesupport_fastrtps_c.so[0m
+[14.156s] [ 62%] Built target k9_interface__rosidl_typesupport_fastrtps_c
+[14.190s] [ 68%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/k9_interface/srv/detail/ltm_set_model__type_support.c.o[0m
+[14.190s] [ 68%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/k9_interface/srv/ltm_remember__type_support.cpp.o[0m
+[14.191s] [ 68%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/k9_interface/srv/ltm_set_model__type_support.cpp.o[0m
+[14.311s] [ 70%] [32mBuilding CXX object CMakeFiles/k9_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/k9_interface/srv/ltm_query__type_support.cpp.o[0m
+[14.317s] [ 72%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/k9_interface/srv/detail/ltm_remember__type_support.c.o[0m
+[14.332s] [ 74%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/k9_interface/srv/detail/ltm_query__type_support.c.o[0m
+[14.459s] [ 75%] [32m[1mLinking CXX shared library libk9_interface__rosidl_typesupport_c.so[0m
+[14.482s] [ 77%] [32m[1mLinking C shared library libk9_interface__rosidl_typesupport_introspection_c.so[0m
+[14.561s] [ 79%] [32m[1mLinking CXX shared library libk9_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.568s] [ 79%] Built target k9_interface__rosidl_typesupport_introspection_c
+[14.568s] [ 79%] Built target k9_interface__rosidl_typesupport_c
+[14.764s] [ 79%] Built target k9_interface__rosidl_typesupport_fastrtps_cpp
+[14.808s] [ 79%] Built target k9_interface
+[14.860s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.958s] [ 81%] Built target k9_interface__py
+[16.002s] [ 87%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_generator_py.dir/rosidl_generator_py/k9_interface/srv/_ltm_query_s.c.o[0m
+[16.002s] [ 87%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_generator_py.dir/rosidl_generator_py/k9_interface/srv/_ltm_remember_s.c.o[0m
+[16.002s] [ 87%] [32mBuilding C object CMakeFiles/k9_interface__rosidl_generator_py.dir/rosidl_generator_py/k9_interface/srv/_ltm_set_model_s.c.o[0m
+[16.346s] [ 88%] [32m[1mLinking C shared library libk9_interface__rosidl_generator_py.so[0m
+[16.455s] [ 88%] Built target k9_interface__rosidl_generator_py
+[16.506s] [ 94%] [32mBuilding C object CMakeFiles/k9_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/k9_interface/_k9_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[16.506s] [ 94%] [32mBuilding C object CMakeFiles/k9_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/k9_interface/_k9_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.506s] [ 94%] [32mBuilding C object CMakeFiles/k9_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/k9_interface/_k9_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.799s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/k9_interface/k9_interface_s__rosidl_typesupport_c.so[0m
+[16.800s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/k9_interface/k9_interface_s__rosidl_typesupport_introspection_c.so[0m
+[16.808s] [100%] [32m[1mLinking C shared module rosidl_generator_py/k9_interface/k9_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[16.881s] [100%] Built target k9_interface_s__rosidl_typesupport_introspection_c
+[16.888s] [100%] Built target k9_interface_s__rosidl_typesupport_c
+[16.895s] [100%] Built target k9_interface_s__rosidl_typesupport_fastrtps_c
+[16.928s] Invoked command in '/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface -- -j4 -l4
+[16.953s] Invoking command in '/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface
+[16.969s] -- Install configuration: ""
+[16.969s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/ament_index/resource_index/rosidl_interfaces/k9_interface
+[16.969s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/srv/LtmSetModel.json
+[16.970s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/srv/LtmRemember.json
+[16.970s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/srv/LtmQuery.json
+[16.970s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface
+[16.970s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv
+[16.970s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/ltm_query.h
+[16.970s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail
+[16.971s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__type_support.h
+[16.971s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__description.c
+[16.971s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__functions.c
+[16.971s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__type_support.c
+[16.971s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__functions.c
+[16.971s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__struct.h
+[16.972s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__description.c
+[16.972s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__type_support.c
+[16.972s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__functions.h
+[16.972s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__functions.h
+[16.972s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__type_support.h
+[16.972s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__functions.h
+[16.973s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__type_support.h
+[16.973s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__description.c
+[16.973s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__struct.h
+[16.973s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__functions.c
+[16.973s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__struct.h
+[16.973s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__type_support.c
+[16.973s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/ltm_remember.h
+[16.974s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/ltm_set_model.h
+[16.974s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/msg
+[16.974s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/msg/rosidl_generator_c__visibility_control.h
+[16.974s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/environment/library_path.sh
+[16.974s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/environment/library_path.dsv
+[16.975s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_generator_c.so
+[16.975s] -- Set non-toolchain portion of runtime path of "/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_generator_c.so" to ""
+[16.975s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface
+[16.976s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv
+[16.976s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail
+[16.976s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__rosidl_typesupport_fastrtps_c.h
+[16.976s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__rosidl_typesupport_fastrtps_c.h
+[16.976s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__rosidl_typesupport_fastrtps_c.h
+[16.976s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/msg
+[16.976s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.976s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_typesupport_fastrtps_c.so
+[16.977s] -- Set non-toolchain portion of runtime path of "/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[16.977s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface
+[16.977s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv
+[16.977s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail
+[16.977s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__type_support.c
+[16.977s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__rosidl_typesupport_introspection_c.h
+[16.977s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__type_support.c
+[16.978s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__rosidl_typesupport_introspection_c.h
+[16.978s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__rosidl_typesupport_introspection_c.h
+[16.978s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__type_support.c
+[16.978s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/msg
+[16.978s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.978s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_typesupport_introspection_c.so
+[16.979s] -- Set non-toolchain portion of runtime path of "/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_typesupport_introspection_c.so" to ""
+[16.979s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_typesupport_c.so
+[16.980s] -- Set non-toolchain portion of runtime path of "/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_typesupport_c.so" to ""
+[16.980s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface
+[16.980s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv
+[16.980s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/ltm_set_model.hpp
+[16.980s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/ltm_remember.hpp
+[16.980s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/ltm_query.hpp
+[16.980s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail
+[16.980s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__type_support.hpp
+[16.981s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__builder.hpp
+[16.981s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__traits.hpp
+[16.981s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__struct.hpp
+[16.981s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__traits.hpp
+[16.981s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__builder.hpp
+[16.981s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__struct.hpp
+[16.981s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__builder.hpp
+[16.982s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__traits.hpp
+[16.982s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__type_support.hpp
+[16.982s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__type_support.hpp
+[16.982s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__struct.hpp
+[16.982s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/msg
+[16.982s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.982s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface
+[16.983s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv
+[16.983s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail
+[16.983s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__rosidl_typesupport_fastrtps_cpp.hpp
+[16.983s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__rosidl_typesupport_fastrtps_cpp.hpp
+[16.983s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__rosidl_typesupport_fastrtps_cpp.hpp
+[16.983s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/dds_fastrtps
+[16.983s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/msg
+[16.983s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.983s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_typesupport_fastrtps_cpp.so
+[16.985s] -- Set non-toolchain portion of runtime path of "/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.985s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface
+[16.985s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv
+[16.985s] -- Up-to-date: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail
+[16.985s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__type_support.cpp
+[16.985s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_remember__rosidl_typesupport_introspection_cpp.hpp
+[16.985s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__rosidl_typesupport_introspection_cpp.hpp
+[16.985s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__type_support.cpp
+[16.986s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_set_model__rosidl_typesupport_introspection_cpp.hpp
+[16.986s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/include/k9_interface/k9_interface/srv/detail/ltm_query__type_support.cpp
+[16.986s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_typesupport_introspection_cpp.so
+[16.987s] -- Set non-toolchain portion of runtime path of "/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[16.987s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_typesupport_cpp.so
+[16.988s] -- Set non-toolchain portion of runtime path of "/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_typesupport_cpp.so" to ""
+[16.988s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/environment/pythonpath.sh
+[16.988s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/environment/pythonpath.dsv
+[16.988s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface-0.1.0-py3.12.egg-info
+[16.989s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface-0.1.0-py3.12.egg-info/SOURCES.txt
+[16.989s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface-0.1.0-py3.12.egg-info/dependency_links.txt
+[16.989s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface-0.1.0-py3.12.egg-info/PKG-INFO
+[16.989s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface-0.1.0-py3.12.egg-info/top_level.txt
+[16.989s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface
+[16.989s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/_k9_interface_s.ep.rosidl_typesupport_c.c
+[16.990s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/_k9_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.990s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/__init__.py
+[16.990s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/srv
+[16.990s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/srv/_ltm_set_model_s.c
+[16.990s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/srv/_ltm_query.py
+[16.990s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/srv/__init__.py
+[16.990s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/srv/_ltm_set_model.py
+[16.991s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/srv/_ltm_query_s.c
+[16.991s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/srv/_ltm_remember_s.c
+[16.991s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/srv/_ltm_remember.py
+[16.991s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/_k9_interface_s.ep.rosidl_typesupport_introspection_c.c
+[16.991s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/k9_interface_s__rosidl_typesupport_fastrtps_c.so
+[16.992s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/k9_interface_s__rosidl_typesupport_introspection_c.so
+[16.992s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/k9_interface_s__rosidl_typesupport_c.so
+[17.079s] Listing '/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface'...
+[17.079s] Compiling '/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/__init__.py'...
+[17.079s] Listing '/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/srv'...
+[17.079s] Compiling '/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/srv/__init__.py'...
+[17.080s] Compiling '/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/srv/_ltm_query.py'...
+[17.080s] Compiling '/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/srv/_ltm_remember.py'...
+[17.080s] Compiling '/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/srv/_ltm_set_model.py'...
+[17.093s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/k9_interface_s__rosidl_typesupport_fastrtps_c.so
+[17.094s] -- Set non-toolchain portion of runtime path of "/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/k9_interface_s__rosidl_typesupport_fastrtps_c.so" to ""
+[17.094s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/k9_interface_s__rosidl_typesupport_introspection_c.so
+[17.095s] -- Set non-toolchain portion of runtime path of "/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/k9_interface_s__rosidl_typesupport_introspection_c.so" to ""
+[17.095s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/k9_interface_s__rosidl_typesupport_c.so
+[17.096s] -- Set non-toolchain portion of runtime path of "/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/python3.12/site-packages/k9_interface/k9_interface_s__rosidl_typesupport_c.so" to ""
+[17.096s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_generator_py.so
+[17.097s] -- Set non-toolchain portion of runtime path of "/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/lib/libk9_interface__rosidl_generator_py.so" to ""
+[17.097s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/srv/LtmSetModel.idl
+[17.097s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/srv/LtmRemember.idl
+[17.097s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/srv/LtmQuery.idl
+[17.097s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/srv/LtmSetModel.srv
+[17.097s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/srv/LtmRemember.srv
+[17.098s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/srv/LtmQuery.srv
+[17.098s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/ament_index/resource_index/package_run_dependencies/k9_interface
+[17.098s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/ament_index/resource_index/parent_prefix_path/k9_interface
+[17.098s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/environment/ament_prefix_path.sh
+[17.099s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/environment/ament_prefix_path.dsv
+[17.099s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/environment/path.sh
+[17.099s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/environment/path.dsv
+[17.099s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/local_setup.bash
+[17.099s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/local_setup.sh
+[17.099s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/local_setup.zsh
+[17.100s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/local_setup.dsv
+[17.100s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/package.dsv
+[17.100s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/ament_index/resource_index/packages/k9_interface
+[17.100s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/export_k9_interface__rosidl_generator_cExport.cmake
+[17.101s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/export_k9_interface__rosidl_generator_cExport-noconfig.cmake
+[17.101s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/export_k9_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[17.101s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/export_k9_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.101s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/k9_interface__rosidl_typesupport_introspection_cExport.cmake
+[17.101s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/k9_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.102s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/k9_interface__rosidl_typesupport_cExport.cmake
+[17.102s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/k9_interface__rosidl_typesupport_cExport-noconfig.cmake
+[17.102s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/export_k9_interface__rosidl_generator_cppExport.cmake
+[17.102s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/export_k9_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.102s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/export_k9_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.103s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/k9_interface__rosidl_typesupport_introspection_cppExport.cmake
+[17.103s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/k9_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.103s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/k9_interface__rosidl_typesupport_cppExport.cmake
+[17.103s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/k9_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[17.103s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/export_k9_interface__rosidl_generator_pyExport.cmake
+[17.104s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/export_k9_interface__rosidl_generator_pyExport-noconfig.cmake
+[17.104s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/rosidl_cmake-extras.cmake
+[17.104s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.104s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.104s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[17.105s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/ament_cmake_export_targets-extras.cmake
+[17.105s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.105s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.105s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/k9_interfaceConfig.cmake
+[17.105s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/cmake/k9_interfaceConfig-version.cmake
+[17.105s] -- Installing: /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/install/k9_interface/share/k9_interface/package.xml
+[17.110s] Invoked command in '/home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hopkira/Documents/GitHub/ros2_k9_interface_pkg/k9_interface/build/k9_interface

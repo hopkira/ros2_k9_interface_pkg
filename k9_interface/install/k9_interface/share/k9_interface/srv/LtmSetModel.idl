@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from k9_interface/srv/LtmSetModel.srv
+// generated code does not contain a copyright notice
+
+
+module k9_interface {
+  module srv {
+    module LtmSetModel_Request_Constants {
+      const uint8 MODEL_TYPE_GENERATE = 0;
+      const uint8 MODEL_TYPE_EMBED = 1;
+    };
+    struct LtmSetModel_Request {
+      uint8 model_type;
+
+      string model_name;
+    };
+    struct LtmSetModel_Response {
+      boolean success;
+    };
+  };
+};

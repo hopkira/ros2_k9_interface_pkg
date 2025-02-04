@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from k9_interface/srv/LtmRemember.srv
+// generated code does not contain a copyright notice
+
+
+module k9_interface {
+  module srv {
+    struct LtmRemember_Request {
+      sequence<string<512>, 20> up_to_twenty_topics_of_512_chars;
+    };
+    struct LtmRemember_Response {
+      boolean success;
+
+      uint8 facts_remembered;
+    };
+  };
+};
