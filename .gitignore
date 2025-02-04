@@ -1,3 +1,7 @@
+k9interface/build/
+k9interface/install/
+k9interface/log
+
 devel/
 logs/
 build/
